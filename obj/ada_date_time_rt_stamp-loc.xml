@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_date_time_rt_stamp.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_date_time_rt_stamp.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/main_ada_date_time_rt_stamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_date_time_rt_stamp.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/pkg-ada-dtstamp/pkg_ada_dtstamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_date_time_rt_stamp.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/pkg-ada-dtstamp/pkg_ada_dtstamp.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 34" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_date_time_rt_stamp.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/pkg-ada-dtstamp/pkg_ada_dtstamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 78" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_date_time_rt_stamp.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/pkg-ada-dtstamp/pkg_ada_dtstamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 33" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_date_time_rt_stamp.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/main_ada_date_time_rt_stamp.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_date_time_rt_stamp.gpr</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

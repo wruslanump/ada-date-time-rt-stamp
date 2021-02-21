@@ -1,0 +1,4 @@
+main_ada_delay_until.adb:83:42: volatile function call as actual is not allowed in SPARK (SPARK RM 7.1.3(10))
+main_ada_delay_until.adb:83:42: violation of aspect SPARK_Mode at line 17
+main_ada_delay_until.adb:87:42: volatile function call as actual is not allowed in SPARK (SPARK RM 7.1.3(10))
+main_ada_delay_until.adb:87:42: violation of aspect SPARK_Mode at line 17

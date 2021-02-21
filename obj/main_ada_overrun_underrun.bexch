@@ -1,0 +1,26 @@
+[GENERATED OBJECT FILE]
+b__main_ada_overrun_underrun.o
+[PROJECT FILES]
+/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_overrun_underrun.gpr
+20210221095521
+[BOUND OBJECT FILES]
+/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/pkg_ada_dtstamp.o
+/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_overrun_underrun.o
+[GENERATED SOURCE FILES]
+b__main_ada_overrun_underrun.ads
+b__main_ada_overrun_underrun.adb
+b__main_ada_overrun_underrun.ali
+[RESULTING OPTIONS]
+-L/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/
+-L/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
+-shared
+-shared-libgcc
+-lgnarl-9
+-lgnat-9
+-lpthread
+-lrt
+-ldl
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
+/usr/lib

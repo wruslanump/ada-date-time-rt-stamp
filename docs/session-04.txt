@@ -1,0 +1,353 @@
+
+gprclean -r -P/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_overrun_underrun.gpr -c -f
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/pkg_ada_dtstamp.o" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/pkg_ada_dtstamp.ali" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/pkg_ada_dtstamp.cswi" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/pkg_ada_dtstamp.adb.stdout" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/pkg_ada_dtstamp.adb.stderr" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_overrun_underrun.o" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_overrun_underrun.ali" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_overrun_underrun.cswi" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_overrun_underrun.adb.stdout" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_overrun_underrun.adb.stderr" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_date_time_rt_stamp.o" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_date_time_rt_stamp.ali" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_date_time_rt_stamp.cswi" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_date_time_rt_stamp.adb.stdout" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_date_time_rt_stamp.adb.stderr" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_delay_until.o" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_delay_until.ali" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_delay_until.cswi" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_delay_until.adb.stdout" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_delay_until.adb.stderr" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/b__main_ada_overrun_underrun.o" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/b__main_ada_overrun_underrun.ads" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/b__main_ada_overrun_underrun.adb" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/b__main_ada_overrun_underrun.ali" has been deleted
+"/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/main_ada_overrun_underrun.bexch" has been deleted
+[2021-02-21 18:07:14] process terminated successfully, elapsed time: 00.75s
+
+===========================================================
+gprbuild -d -P/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_overrun_underrun.gpr -s -k
+Compile
+   [Ada]          main_ada_overrun_underrun.adb
+   [Ada]          pkg_ada_dtstamp.adb
+Bind
+   [gprbind]      main_ada_overrun_underrun.bexch
+   [Ada]          main_ada_overrun_underrun.ali
+Link
+   [link]         main_ada_overrun_underrun.adb
+[2021-02-21 18:08:39] process terminated successfully, elapsed time: 01.26s
+
+===========================================================
+/home/wruslan/github-ump/ada-date-time-rt-stamp/exec/main_ada_overrun_underrun.adx
+2021-02-21 10:08:50.67261651423 Bismillah 3 times WRY
+2021-02-21 10:08:50.67261673458 Running inside GNAT Studio Community
+
+2021-02-21 10:08:50.67261692803 exec_delay_time : loop number =  1
+2021-02-21 10:08:52.42012187959 exec_delay_time : loop number =  2
+2021-02-21 10:08:54.18762686043 exec_delay_time : loop number =  3
+2021-02-21 10:08:55.93513158314 exec_delay_time : loop number =  4
+2021-02-21 10:08:57.68263651940 exec_delay_time : loop number =  5
+
+2021-02-21 10:08:59.43014210549 exec_delay_sec  : loop number =  1
+2021-02-21 10:09:01.43014443428 exec_delay_sec  : loop number =  2
+2021-02-21 10:09:03.43014642608 exec_delay_sec  : loop number =  3
+
+2021-02-21 10:09:05.43014849492 exec_delay_msec : loop number =  1
+2021-02-21 10:09:06.43015042116 exec_delay_msec : loop number =  2
+2021-02-21 10:09:07.43015180298 exec_delay_msec : loop number =  3
+
+2021-02-21 10:09:08.43015363413 exec_delay_usec : loop number =  1
+2021-02-21 10:09:08.43017559544 exec_delay_usec : loop number =  2
+2021-02-21 10:09:08.43019659709 exec_delay_usec : loop number =  3
+
+2021-02-21 10:09:08.43021838106 exec_delay_nsec : loop number =  1
+2021-02-21 10:09:08.45042039413 exec_delay_nsec : loop number =  2
+2021-02-21 10:09:08.47062276764 exec_delay_nsec : loop number =  3
+
+the_datestamp = 2021-02-21
+
+the_timestamp = 10:09:08.50082535388
+
+Raise Execution Underrun ---
+   Execution duration (sec) =  0.026294368
+   Deadline  duration (sec) =  0.075000000
+   Underrun  time     (sec) = -0.048705632
+
+Raise Execution Overrun +++
+   Execution duration (sec) =  0.026294089
+   Deadline  duration (sec) =  0.015000000
+   Overrun   time     (sec) =  0.011294089
+
+
+2021-02-21 10:09:08.55135338080 Alhamdulillah 3 times WRY
+[2021-02-21 18:09:08] process terminated successfully, elapsed time: 17.98s
+
+===========================================================
+gnatprove -P/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_overrun_underrun.gpr -j0 --level=0 --ide-progress-bar -U
+Phase 1 of 2: generation of Global contracts ...
+Phase 2 of 2: flow analysis and proof ...
+main_ada_delay_until.adb:83:42: volatile function call as actual is not allowed in SPARK (SPARK RM 7.1.3(10))
+main_ada_delay_until.adb:83:42: violation of aspect SPARK_Mode at line 17
+main_ada_delay_until.adb:87:42: volatile function call as actual is not allowed in SPARK (SPARK RM 7.1.3(10))
+main_ada_delay_until.adb:87:42: violation of aspect SPARK_Mode at line 17
+main_ada_overrun_underrun.adb:86:42: volatile function call as actual is not allowed in SPARK (SPARK RM 7.1.3(10))
+main_ada_overrun_underrun.adb:86:42: violation of aspect SPARK_Mode at line 17
+main_ada_overrun_underrun.adb:90:42: volatile function call as actual is not allowed in SPARK (SPARK RM 7.1.3(10))
+main_ada_overrun_underrun.adb:90:42: violation of aspect SPARK_Mode at line 17
+gnatprove: error during flow analysis and proof
+[2021-02-21 18:12:24] process exited with status 1, 100% (4/4), elapsed time: 01.44s
+
+https://stackoverflow.com/questions/65688193/ada-complaining-that-ive-added-a-volatile-object-in-a-function-call-to-generic
+
+Now, Clock is volatile which is used. However I've removed the call to Clock and I still get the same result.
+
+===========================================================
+ALHAMDULILLAH 3 TIMES
+===========================================================
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-date-time-rt-stamp$ ls -al
+total 60
+drwxrwxr-x 8 wruslan wruslan 4096 Feb 21 17:55 .
+drwxrwxr-x 4 wruslan wruslan 4096 Feb 21 15:39 ..
+-rw-rw-r-- 1 wruslan wruslan 4371 Feb 21 16:42 ada_date_time_rt_stamp.gpr
+-rw-rw-r-- 1 wruslan wruslan 4409 Feb 21 16:45 ada_delay_until.gpr
+-rw-rw-r-- 1 wruslan wruslan 4559 Feb 21 17:55 ada_overrun_underrun.gpr
+drwxrwxr-x 2 wruslan wruslan 4096 Feb 21 18:17 docs
+drwxrwxr-x 3 wruslan wruslan 4096 Feb 21 18:08 exec
+drwxrwxr-x 2 wruslan wruslan 4096 Feb 21 16:29 figures
+drwxrwxr-x 8 wruslan wruslan 4096 Feb 21 18:07 .git
+drwxrwxr-x 4 wruslan wruslan 4096 Feb 21 18:08 obj
+-rw-rw-r-- 1 wruslan wruslan   59 Feb 21 15:12 README.md
+drwxrwxr-x 3 wruslan wruslan 4096 Feb 21 18:07 src
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-date-time-rt-stamp$ tree ./
+./
+├── ada_date_time_rt_stamp.gpr
+├── ada_delay_until.gpr
+├── ada_overrun_underrun.gpr
+├── docs
+│   ├── session-01.txt
+│   ├── session-02.txt
+│   ├── session-03.txt
+│   └── session-04.txt
+├── exec
+│   ├── gnatprove
+│   │   └── phase1
+│   ├── main_ada_date_time_rt_stamp.adx
+│   ├── main_ada_delay_until.adx
+│   └── main_ada_overrun_underrun.adx
+├── figures
+│   └── main_ada_date_time_rt_stamp.jpg
+├── obj
+│   ├── ada_date_time_rt_stamp-loc.xml
+│   ├── ada_delay_until-loc.xml
+│   ├── b__main_ada_date_time_rt_stamp.adb
+│   ├── b__main_ada_date_time_rt_stamp.ads
+│   ├── b__main_ada_date_time_rt_stamp.ali
+│   ├── b__main_ada_date_time_rt_stamp.o
+│   ├── b__main_ada_delay_until.adb
+│   ├── b__main_ada_delay_until.ads
+│   ├── b__main_ada_delay_until.ali
+│   ├── b__main_ada_delay_until.o
+│   ├── b__main_ada_overrun_underrun.adb
+│   ├── b__main_ada_overrun_underrun.ads
+│   ├── b__main_ada_overrun_underrun.ali
+│   ├── b__main_ada_overrun_underrun.o
+│   ├── gnatprove
+│   │   ├── 2cda2a74.tmp
+│   │   ├── gnatprove.out
+│   │   ├── main_ada_date_time_rt_stamp.adb.stderr
+│   │   ├── main_ada_date_time_rt_stamp.adb.stdout
+│   │   ├── main_ada_date_time_rt_stamp.ali
+│   │   ├── main_ada_date_time_rt_stamp.cswi
+│   │   ├── main_ada_date_time_rt_stamp.spark
+│   │   ├── main_ada_delay_until.adb.stderr
+│   │   ├── main_ada_delay_until.adb.stdout
+│   │   ├── main_ada_delay_until.ali
+│   │   ├── main_ada_overrun_underrun.adb.stderr
+│   │   ├── main_ada_overrun_underrun.adb.stdout
+│   │   ├── main_ada_overrun_underrun.ali
+│   │   ├── phase1
+│   │   │   ├── main_ada_date_time_rt_stamp.adb.stderr
+│   │   │   ├── main_ada_date_time_rt_stamp.adb.stdout
+│   │   │   ├── main_ada_date_time_rt_stamp.ali
+│   │   │   ├── main_ada_date_time_rt_stamp.cswi
+│   │   │   ├── main_ada_delay_until.adb.stderr
+│   │   │   ├── main_ada_delay_until.adb.stdout
+│   │   │   ├── main_ada_delay_until.ali
+│   │   │   ├── main_ada_delay_until.cswi
+│   │   │   ├── main_ada_overrun_underrun.adb.stderr
+│   │   │   ├── main_ada_overrun_underrun.adb.stdout
+│   │   │   ├── main_ada_overrun_underrun.ali
+│   │   │   ├── main_ada_overrun_underrun.cswi
+│   │   │   ├── pkg_ada_dtstamp.adb.stderr
+│   │   │   ├── pkg_ada_dtstamp.adb.stdout
+│   │   │   ├── pkg_ada_dtstamp.ali
+│   │   │   └── pkg_ada_dtstamp.cswi
+│   │   ├── pkg_ada_dtstamp.adb.stderr
+│   │   ├── pkg_ada_dtstamp.adb.stdout
+│   │   ├── pkg_ada_dtstamp.ali
+│   │   ├── pkg_ada_dtstamp.cswi
+│   │   ├── pkg_ada_dtstamp.spark
+│   │   └── why3.conf
+│   ├── gpsauto.cgpr
+│   ├── main_ada_date_time_rt_stamp.bexch
+│   ├── main_ada_delay_until.bexch
+│   ├── main_ada_overrun_underrun.adb.stderr
+│   ├── main_ada_overrun_underrun.adb.stdout
+│   ├── main_ada_overrun_underrun.ali
+│   ├── main_ada_overrun_underrun.bexch
+│   ├── main_ada_overrun_underrun.cswi
+│   ├── main_ada_overrun_underrun.o
+│   ├── pkg_ada_dtstamp.adb.stderr
+│   ├── pkg_ada_dtstamp.adb.stdout
+│   ├── pkg_ada_dtstamp.ali
+│   ├── pkg_ada_dtstamp.cswi
+│   ├── pkg_ada_dtstamp.o
+│   ├── runs.yaml
+│   └── saved_runs
+│       ├── 2021-02-21T16_10_37.974295
+│       │   └── gnatprove
+│       │       ├── gnatprove.out
+│       │       ├── main_ada_date_time_rt_stamp.adb.stderr
+│       │       ├── main_ada_date_time_rt_stamp.adb.stdout
+│       │       ├── main_ada_date_time_rt_stamp.ali
+│       │       ├── main_ada_date_time_rt_stamp.cswi
+│       │       ├── main_ada_date_time_rt_stamp.spark
+│       │       ├── phase1
+│       │       │   ├── main_ada_date_time_rt_stamp.adb.stderr
+│       │       │   ├── main_ada_date_time_rt_stamp.adb.stdout
+│       │       │   ├── main_ada_date_time_rt_stamp.ali
+│       │       │   ├── main_ada_date_time_rt_stamp.cswi
+│       │       │   ├── pkg_ada_dtstamp.adb.stderr
+│       │       │   ├── pkg_ada_dtstamp.adb.stdout
+│       │       │   ├── pkg_ada_dtstamp.ali
+│       │       │   └── pkg_ada_dtstamp.cswi
+│       │       ├── pkg_ada_dtstamp.adb.stderr
+│       │       ├── pkg_ada_dtstamp.adb.stdout
+│       │       ├── pkg_ada_dtstamp.ali
+│       │       ├── pkg_ada_dtstamp.cswi
+│       │       ├── pkg_ada_dtstamp.spark
+│       │       └── why3.conf
+│       ├── 2021-02-21T16_12_10.384952
+│       │   └── gnatprove
+│       │       ├── gnatprove.out
+│       │       ├── main_ada_date_time_rt_stamp.adb.stderr
+│       │       ├── main_ada_date_time_rt_stamp.adb.stdout
+│       │       ├── main_ada_date_time_rt_stamp.ali
+│       │       ├── main_ada_date_time_rt_stamp.cswi
+│       │       ├── main_ada_date_time_rt_stamp.spark
+│       │       ├── phase1
+│       │       │   ├── main_ada_date_time_rt_stamp.adb.stderr
+│       │       │   ├── main_ada_date_time_rt_stamp.adb.stdout
+│       │       │   ├── main_ada_date_time_rt_stamp.ali
+│       │       │   ├── main_ada_date_time_rt_stamp.cswi
+│       │       │   ├── pkg_ada_dtstamp.adb.stderr
+│       │       │   ├── pkg_ada_dtstamp.adb.stdout
+│       │       │   ├── pkg_ada_dtstamp.ali
+│       │       │   └── pkg_ada_dtstamp.cswi
+│       │       ├── pkg_ada_dtstamp.adb.stderr
+│       │       ├── pkg_ada_dtstamp.adb.stdout
+│       │       ├── pkg_ada_dtstamp.ali
+│       │       ├── pkg_ada_dtstamp.cswi
+│       │       ├── pkg_ada_dtstamp.spark
+│       │       └── why3.conf
+│       ├── 2021-02-21T16_14_41.705151
+│       │   └── gnatprove
+│       │       ├── 6e5fa21d.tmp
+│       │       ├── gnatprove.out
+│       │       ├── main_ada_date_time_rt_stamp.adb.stderr
+│       │       ├── main_ada_date_time_rt_stamp.adb.stdout
+│       │       ├── main_ada_date_time_rt_stamp.ali
+│       │       ├── main_ada_date_time_rt_stamp.cswi
+│       │       ├── main_ada_date_time_rt_stamp.spark
+│       │       ├── phase1
+│       │       │   ├── main_ada_date_time_rt_stamp.adb.stderr
+│       │       │   ├── main_ada_date_time_rt_stamp.adb.stdout
+│       │       │   ├── main_ada_date_time_rt_stamp.ali
+│       │       │   ├── main_ada_date_time_rt_stamp.cswi
+│       │       │   ├── pkg_ada_dtstamp.adb.stderr
+│       │       │   ├── pkg_ada_dtstamp.adb.stdout
+│       │       │   ├── pkg_ada_dtstamp.ali
+│       │       │   └── pkg_ada_dtstamp.cswi
+│       │       ├── pkg_ada_dtstamp.adb.stderr
+│       │       ├── pkg_ada_dtstamp.adb.stdout
+│       │       ├── pkg_ada_dtstamp.ali
+│       │       ├── pkg_ada_dtstamp.cswi
+│       │       ├── pkg_ada_dtstamp.spark
+│       │       └── why3.conf
+│       ├── 2021-02-21T16_16_18.383990
+│       │   └── gnatprove
+│       │       ├── gnatprove.out
+│       │       ├── main_ada_date_time_rt_stamp.adb.stderr
+│       │       ├── main_ada_date_time_rt_stamp.adb.stdout
+│       │       ├── main_ada_date_time_rt_stamp.ali
+│       │       ├── main_ada_date_time_rt_stamp.cswi
+│       │       ├── main_ada_date_time_rt_stamp.spark
+│       │       ├── phase1
+│       │       │   ├── main_ada_date_time_rt_stamp.adb.stderr
+│       │       │   ├── main_ada_date_time_rt_stamp.adb.stdout
+│       │       │   ├── main_ada_date_time_rt_stamp.ali
+│       │       │   ├── main_ada_date_time_rt_stamp.cswi
+│       │       │   ├── pkg_ada_dtstamp.adb.stderr
+│       │       │   ├── pkg_ada_dtstamp.adb.stdout
+│       │       │   ├── pkg_ada_dtstamp.ali
+│       │       │   └── pkg_ada_dtstamp.cswi
+│       │       ├── pkg_ada_dtstamp.adb.stderr
+│       │       ├── pkg_ada_dtstamp.adb.stdout
+│       │       ├── pkg_ada_dtstamp.ali
+│       │       ├── pkg_ada_dtstamp.cswi
+│       │       ├── pkg_ada_dtstamp.spark
+│       │       └── why3.conf
+│       └── 2021-02-21T18_12_24.478946
+│           └── gnatprove
+│               ├── 2cda2a74.tmp
+│               ├── gnatprove.out
+│               ├── main_ada_date_time_rt_stamp.adb.stderr
+│               ├── main_ada_date_time_rt_stamp.adb.stdout
+│               ├── main_ada_date_time_rt_stamp.ali
+│               ├── main_ada_date_time_rt_stamp.cswi
+│               ├── main_ada_date_time_rt_stamp.spark
+│               ├── main_ada_delay_until.adb.stderr
+│               ├── main_ada_delay_until.adb.stdout
+│               ├── main_ada_delay_until.ali
+│               ├── main_ada_overrun_underrun.adb.stderr
+│               ├── main_ada_overrun_underrun.adb.stdout
+│               ├── main_ada_overrun_underrun.ali
+│               ├── phase1
+│               │   ├── main_ada_date_time_rt_stamp.adb.stderr
+│               │   ├── main_ada_date_time_rt_stamp.adb.stdout
+│               │   ├── main_ada_date_time_rt_stamp.ali
+│               │   ├── main_ada_date_time_rt_stamp.cswi
+│               │   ├── main_ada_delay_until.adb.stderr
+│               │   ├── main_ada_delay_until.adb.stdout
+│               │   ├── main_ada_delay_until.ali
+│               │   ├── main_ada_delay_until.cswi
+│               │   ├── main_ada_overrun_underrun.adb.stderr
+│               │   ├── main_ada_overrun_underrun.adb.stdout
+│               │   ├── main_ada_overrun_underrun.ali
+│               │   ├── main_ada_overrun_underrun.cswi
+│               │   ├── pkg_ada_dtstamp.adb.stderr
+│               │   ├── pkg_ada_dtstamp.adb.stdout
+│               │   ├── pkg_ada_dtstamp.ali
+│               │   └── pkg_ada_dtstamp.cswi
+│               ├── pkg_ada_dtstamp.adb.stderr
+│               ├── pkg_ada_dtstamp.adb.stdout
+│               ├── pkg_ada_dtstamp.ali
+│               ├── pkg_ada_dtstamp.cswi
+│               ├── pkg_ada_dtstamp.spark
+│               └── why3.conf
+├── README.md
+└── src
+    ├── main_ada_date_time_rt_stamp.adb
+    ├── main_ada_delay_until.adb
+    ├── main_ada_overrun_underrun.adb
+    └── pkg-ada-dtstamp
+        ├── pkg_ada_dtstamp.adb
+        └── pkg_ada_dtstamp.ads
+
+26 directories, 197 files
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-date-time-rt-stamp$ 
+
+

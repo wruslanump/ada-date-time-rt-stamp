@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/main_ada_delay_until.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 40" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/main_ada_delay_until.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/pkg-ada-dtstamp/pkg_ada_dtstamp.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 3" line=" 56" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/main_ada_delay_until.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 3" line=" 56" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/main_ada_delay_until.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 3" line=" 56" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/main_ada_delay_until.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/main_ada_delay_until.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 80" line=" 19" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/pkg-ada-dtstamp/pkg_ada_dtstamp.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/pkg-ada-dtstamp/pkg_ada_dtstamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 86" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/main_ada_delay_until.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 83" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/main_ada_delay_until.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 58" line=" 92" >
+      <vfs_project>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/src/main_ada_overrun_underrun.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

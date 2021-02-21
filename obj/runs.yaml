@@ -1,18 +1,4 @@
-'2021-02-21T16:10:37.974295':
-  category: GNATprove
-  files:
-  - /home/wruslan/github-ump/ada-date-time-rt-stamp/obj/gnatprove
-  label: Examine All Sources
-  output: 'Phase 1 of 2: generation of Global contracts ...
-
-    Phase 2 of 2: analysis of data and information flow ...
-
-    Summary logged in /home/wruslan/github-ump/ada-date-time-rt-stamp/obj/gnatprove/gnatprove.out
-
-    '
-  output_parser: GNATprove_Parser
-  timestamp: '2021-02-21T16:10:37.974295'
-'2021-02-21T16:12:10.384952':
+'2021-02-21T18:12:24.478946':
   category: GNATprove
   files:
   - /home/wruslan/github-ump/ada-date-time-rt-stamp/obj/gnatprove
@@ -21,86 +7,28 @@
 
     Phase 2 of 2: flow analysis and proof ...
 
-    Summary logged in /home/wruslan/github-ump/ada-date-time-rt-stamp/obj/gnatprove/gnatprove.out
+    main_ada_delay_until.adb:83:42: volatile function call as actual is not allowed
+    in SPARK (SPARK RM 7.1.3(10))
 
-    '
-  output_parser: GNATprove_Parser
-  timestamp: '2021-02-21T16:12:10.384952'
-'2021-02-21T16:14:41.705151':
-  category: GNATprove
-  files:
-  - /home/wruslan/github-ump/ada-date-time-rt-stamp/obj/gnatprove
-  label: Basic Prove All Sources
-  output: 'Phase 1 of 2: generation of Global contracts ...
+    main_ada_delay_until.adb:83:42: violation of aspect SPARK_Mode at line 17
 
-    Phase 2 of 2: flow analysis and proof ...
+    main_ada_delay_until.adb:87:42: volatile function call as actual is not allowed
+    in SPARK (SPARK RM 7.1.3(10))
 
-    pkg_ada_dtstamp.adb:78:39: volatile function call as actual is not allowed in
-    SPARK (SPARK RM 7.1.3(10))
+    main_ada_delay_until.adb:87:42: violation of aspect SPARK_Mode at line 17
 
-    pkg_ada_dtstamp.adb:78:39: violation of aspect SPARK_Mode at line 34
+    main_ada_overrun_underrun.adb:86:42: volatile function call as actual is not allowed
+    in SPARK (SPARK RM 7.1.3(10))
 
-    pkg_ada_dtstamp.adb:79:25: volatile function call as actual is not allowed in
-    SPARK (SPARK RM 7.1.3(10))
+    main_ada_overrun_underrun.adb:86:42: violation of aspect SPARK_Mode at line 17
 
-    pkg_ada_dtstamp.adb:79:25: violation of aspect SPARK_Mode at line 34
+    main_ada_overrun_underrun.adb:90:42: volatile function call as actual is not allowed
+    in SPARK (SPARK RM 7.1.3(10))
 
-    pkg_ada_dtstamp.adb:90:72: volatile function call as actual is not allowed in
-    SPARK (SPARK RM 7.1.3(10))
-
-    pkg_ada_dtstamp.adb:90:72: violation of aspect SPARK_Mode at line 34
-
-    pkg_ada_dtstamp.adb:105:71: volatile function call as actual is not allowed in
-    SPARK (SPARK RM 7.1.3(10))
-
-    pkg_ada_dtstamp.adb:105:71: violation of aspect SPARK_Mode at line 34
-
-    pkg_ada_dtstamp.adb:107:60: volatile function call as actual is not allowed in
-    SPARK (SPARK RM 7.1.3(10))
-
-    pkg_ada_dtstamp.adb:107:60: violation of aspect SPARK_Mode at line 34
-
-    pkg_ada_dtstamp.adb:121:20: volatile function call as actual is not allowed in
-    SPARK (SPARK RM 7.1.3(10))
-
-    pkg_ada_dtstamp.adb:121:20: violation of aspect SPARK_Mode at line 34
-
-    pkg_ada_dtstamp.adb:129:20: volatile function call as actual is not allowed in
-    SPARK (SPARK RM 7.1.3(10))
-
-    pkg_ada_dtstamp.adb:129:20: violation of aspect SPARK_Mode at line 34
-
-    pkg_ada_dtstamp.adb:137:20: volatile function call as actual is not allowed in
-    SPARK (SPARK RM 7.1.3(10))
-
-    pkg_ada_dtstamp.adb:137:20: violation of aspect SPARK_Mode at line 34
-
-    pkg_ada_dtstamp.adb:145:20: volatile function call as actual is not allowed in
-    SPARK (SPARK RM 7.1.3(10))
-
-    pkg_ada_dtstamp.adb:145:20: violation of aspect SPARK_Mode at line 34
-
-    pkg_ada_dtstamp.adb:153:20: volatile function call as actual is not allowed in
-    SPARK (SPARK RM 7.1.3(10))
-
-    pkg_ada_dtstamp.adb:153:20: violation of aspect SPARK_Mode at line 34
+    main_ada_overrun_underrun.adb:90:42: violation of aspect SPARK_Mode at line 17
 
     gnatprove: error during flow analysis and proof
 
     '
   output_parser: GNATprove_Parser
-  timestamp: '2021-02-21T16:14:41.705151'
-'2021-02-21T16:16:18.383990':
-  category: GNATprove
-  files:
-  - /home/wruslan/github-ump/ada-date-time-rt-stamp/obj/gnatprove
-  label: Basic Prove All Sources
-  output: 'Phase 1 of 2: generation of Global contracts ...
-
-    Phase 2 of 2: flow analysis and proof ...
-
-    Summary logged in /home/wruslan/github-ump/ada-date-time-rt-stamp/obj/gnatprove/gnatprove.out
-
-    '
-  output_parser: GNATprove_Parser
-  timestamp: '2021-02-21T16:16:18.383990'
+  timestamp: '2021-02-21T18:12:24.478946'

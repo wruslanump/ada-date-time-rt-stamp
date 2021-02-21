@@ -1,0 +1,303 @@
+ 
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-date-time-rt-stamp$ tree ./
+./
+├── ada_date_time_rt_stamp.gpr
+├── docs
+│   └── session-01.txt
+├── exec
+│   ├── gnatprove
+│   │   └── phase1
+│   └── main_ada_date_time_rt_stamp.adx
+├── figures
+│   └── main_ada_date_time_rt_stamp.jpg
+├── obj
+│   ├── b__main_ada_date_time_rt_stamp.adb
+│   ├── b__main_ada_date_time_rt_stamp.ads
+│   ├── b__main_ada_date_time_rt_stamp.ali
+│   ├── b__main_ada_date_time_rt_stamp.o
+│   ├── gnatprove
+│   │   ├── gnatprove.out
+│   │   ├── main_ada_date_time_rt_stamp.adb.stderr
+│   │   ├── main_ada_date_time_rt_stamp.adb.stdout
+│   │   ├── main_ada_date_time_rt_stamp.ali
+│   │   ├── main_ada_date_time_rt_stamp.cswi
+│   │   ├── main_ada_date_time_rt_stamp.spark
+│   │   ├── phase1
+│   │   │   ├── main_ada_date_time_rt_stamp.adb.stderr
+│   │   │   ├── main_ada_date_time_rt_stamp.adb.stdout
+│   │   │   ├── main_ada_date_time_rt_stamp.ali
+│   │   │   ├── main_ada_date_time_rt_stamp.cswi
+│   │   │   ├── pkg_ada_dtstamp.adb.stderr
+│   │   │   ├── pkg_ada_dtstamp.adb.stdout
+│   │   │   ├── pkg_ada_dtstamp.ali
+│   │   │   └── pkg_ada_dtstamp.cswi
+│   │   ├── pkg_ada_dtstamp.adb.stderr
+│   │   ├── pkg_ada_dtstamp.adb.stdout
+│   │   ├── pkg_ada_dtstamp.ali
+│   │   ├── pkg_ada_dtstamp.cswi
+│   │   ├── pkg_ada_dtstamp.spark
+│   │   └── why3.conf
+│   ├── gpsauto.cgpr
+│   ├── main_ada_date_time_rt_stamp.adb.stderr
+│   ├── main_ada_date_time_rt_stamp.adb.stdout
+│   ├── main_ada_date_time_rt_stamp.ali
+│   ├── main_ada_date_time_rt_stamp.bexch
+│   ├── main_ada_date_time_rt_stamp.cswi
+│   ├── main_ada_date_time_rt_stamp.o
+│   ├── pkg_ada_dtstamp.adb.stderr
+│   ├── pkg_ada_dtstamp.adb.stdout
+│   ├── pkg_ada_dtstamp.ali
+│   ├── pkg_ada_dtstamp.cswi
+│   ├── pkg_ada_dtstamp.o
+│   ├── runs.yaml
+│   └── saved_runs
+│       ├── 2021-02-21T16_10_37.974295
+│       │   └── gnatprove
+│       │       ├── gnatprove.out
+│       │       ├── main_ada_date_time_rt_stamp.adb.stderr
+│       │       ├── main_ada_date_time_rt_stamp.adb.stdout
+│       │       ├── main_ada_date_time_rt_stamp.ali
+│       │       ├── main_ada_date_time_rt_stamp.cswi
+│       │       ├── main_ada_date_time_rt_stamp.spark
+│       │       ├── phase1
+│       │       │   ├── main_ada_date_time_rt_stamp.adb.stderr
+│       │       │   ├── main_ada_date_time_rt_stamp.adb.stdout
+│       │       │   ├── main_ada_date_time_rt_stamp.ali
+│       │       │   ├── main_ada_date_time_rt_stamp.cswi
+│       │       │   ├── pkg_ada_dtstamp.adb.stderr
+│       │       │   ├── pkg_ada_dtstamp.adb.stdout
+│       │       │   ├── pkg_ada_dtstamp.ali
+│       │       │   └── pkg_ada_dtstamp.cswi
+│       │       ├── pkg_ada_dtstamp.adb.stderr
+│       │       ├── pkg_ada_dtstamp.adb.stdout
+│       │       ├── pkg_ada_dtstamp.ali
+│       │       ├── pkg_ada_dtstamp.cswi
+│       │       ├── pkg_ada_dtstamp.spark
+│       │       └── why3.conf
+│       ├── 2021-02-21T16_12_10.384952
+│       │   └── gnatprove
+│       │       ├── gnatprove.out
+│       │       ├── main_ada_date_time_rt_stamp.adb.stderr
+│       │       ├── main_ada_date_time_rt_stamp.adb.stdout
+│       │       ├── main_ada_date_time_rt_stamp.ali
+│       │       ├── main_ada_date_time_rt_stamp.cswi
+│       │       ├── main_ada_date_time_rt_stamp.spark
+│       │       ├── phase1
+│       │       │   ├── main_ada_date_time_rt_stamp.adb.stderr
+│       │       │   ├── main_ada_date_time_rt_stamp.adb.stdout
+│       │       │   ├── main_ada_date_time_rt_stamp.ali
+│       │       │   ├── main_ada_date_time_rt_stamp.cswi
+│       │       │   ├── pkg_ada_dtstamp.adb.stderr
+│       │       │   ├── pkg_ada_dtstamp.adb.stdout
+│       │       │   ├── pkg_ada_dtstamp.ali
+│       │       │   └── pkg_ada_dtstamp.cswi
+│       │       ├── pkg_ada_dtstamp.adb.stderr
+│       │       ├── pkg_ada_dtstamp.adb.stdout
+│       │       ├── pkg_ada_dtstamp.ali
+│       │       ├── pkg_ada_dtstamp.cswi
+│       │       ├── pkg_ada_dtstamp.spark
+│       │       └── why3.conf
+│       ├── 2021-02-21T16_14_41.705151
+│       │   └── gnatprove
+│       │       ├── 6e5fa21d.tmp
+│       │       ├── gnatprove.out
+│       │       ├── main_ada_date_time_rt_stamp.adb.stderr
+│       │       ├── main_ada_date_time_rt_stamp.adb.stdout
+│       │       ├── main_ada_date_time_rt_stamp.ali
+│       │       ├── main_ada_date_time_rt_stamp.cswi
+│       │       ├── main_ada_date_time_rt_stamp.spark
+│       │       ├── phase1
+│       │       │   ├── main_ada_date_time_rt_stamp.adb.stderr
+│       │       │   ├── main_ada_date_time_rt_stamp.adb.stdout
+│       │       │   ├── main_ada_date_time_rt_stamp.ali
+│       │       │   ├── main_ada_date_time_rt_stamp.cswi
+│       │       │   ├── pkg_ada_dtstamp.adb.stderr
+│       │       │   ├── pkg_ada_dtstamp.adb.stdout
+│       │       │   ├── pkg_ada_dtstamp.ali
+│       │       │   └── pkg_ada_dtstamp.cswi
+│       │       ├── pkg_ada_dtstamp.adb.stderr
+│       │       ├── pkg_ada_dtstamp.adb.stdout
+│       │       ├── pkg_ada_dtstamp.ali
+│       │       ├── pkg_ada_dtstamp.cswi
+│       │       ├── pkg_ada_dtstamp.spark
+│       │       └── why3.conf
+│       └── 2021-02-21T16_16_18.383990
+│           └── gnatprove
+│               ├── gnatprove.out
+│               ├── main_ada_date_time_rt_stamp.adb.stderr
+│               ├── main_ada_date_time_rt_stamp.adb.stdout
+│               ├── main_ada_date_time_rt_stamp.ali
+│               ├── main_ada_date_time_rt_stamp.cswi
+│               ├── main_ada_date_time_rt_stamp.spark
+│               ├── phase1
+│               │   ├── main_ada_date_time_rt_stamp.adb.stderr
+│               │   ├── main_ada_date_time_rt_stamp.adb.stdout
+│               │   ├── main_ada_date_time_rt_stamp.ali
+│               │   ├── main_ada_date_time_rt_stamp.cswi
+│               │   ├── pkg_ada_dtstamp.adb.stderr
+│               │   ├── pkg_ada_dtstamp.adb.stdout
+│               │   ├── pkg_ada_dtstamp.ali
+│               │   └── pkg_ada_dtstamp.cswi
+│               ├── pkg_ada_dtstamp.adb.stderr
+│               ├── pkg_ada_dtstamp.adb.stdout
+│               ├── pkg_ada_dtstamp.ali
+│               ├── pkg_ada_dtstamp.cswi
+│               ├── pkg_ada_dtstamp.spark
+│               └── why3.conf
+├── README.md
+└── src
+    ├── main_ada_date_time_rt_stamp.adb
+    └── pkg-ada-dtstamp
+        ├── pkg_ada_dtstamp.adb
+        └── pkg_ada_dtstamp.ads
+
+23 directories, 126 files
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-date-time-rt-stamp$ 
+
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-date-time-rt-stamp$ git add .
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-date-time-rt-stamp$ git commit -m "initial commit"
+[main 98d94d1] initial commit
+ 125 files changed, 22428 insertions(+)
+ create mode 100644 ada_date_time_rt_stamp.gpr
+ create mode 100644 docs/session-01.txt
+ create mode 100755 exec/main_ada_date_time_rt_stamp.adx
+ create mode 100644 figures/main_ada_date_time_rt_stamp.jpg
+ create mode 100644 obj/b__main_ada_date_time_rt_stamp.adb
+ create mode 100644 obj/b__main_ada_date_time_rt_stamp.ads
+ create mode 100644 obj/b__main_ada_date_time_rt_stamp.ali
+ create mode 100644 obj/b__main_ada_date_time_rt_stamp.o
+ create mode 100644 obj/gnatprove/gnatprove.out
+ create mode 100644 obj/gnatprove/main_ada_date_time_rt_stamp.adb.stderr
+ create mode 100644 obj/gnatprove/main_ada_date_time_rt_stamp.adb.stdout
+ create mode 100644 obj/gnatprove/main_ada_date_time_rt_stamp.ali
+ create mode 100644 obj/gnatprove/main_ada_date_time_rt_stamp.cswi
+ create mode 100644 obj/gnatprove/main_ada_date_time_rt_stamp.spark
+ create mode 100644 obj/gnatprove/phase1/main_ada_date_time_rt_stamp.adb.stderr
+ create mode 100644 obj/gnatprove/phase1/main_ada_date_time_rt_stamp.adb.stdout
+ create mode 100644 obj/gnatprove/phase1/main_ada_date_time_rt_stamp.ali
+ create mode 100644 obj/gnatprove/phase1/main_ada_date_time_rt_stamp.cswi
+ create mode 100644 obj/gnatprove/phase1/pkg_ada_dtstamp.adb.stderr
+ create mode 100644 obj/gnatprove/phase1/pkg_ada_dtstamp.adb.stdout
+ create mode 100644 obj/gnatprove/phase1/pkg_ada_dtstamp.ali
+ create mode 100644 obj/gnatprove/phase1/pkg_ada_dtstamp.cswi
+ create mode 100644 obj/gnatprove/pkg_ada_dtstamp.adb.stderr
+ create mode 100644 obj/gnatprove/pkg_ada_dtstamp.adb.stdout
+ create mode 100644 obj/gnatprove/pkg_ada_dtstamp.ali
+ create mode 100644 obj/gnatprove/pkg_ada_dtstamp.cswi
+ create mode 100644 obj/gnatprove/pkg_ada_dtstamp.spark
+ create mode 100644 obj/gnatprove/why3.conf
+ create mode 100644 obj/gpsauto.cgpr
+ create mode 100644 obj/main_ada_date_time_rt_stamp.adb.stderr
+ create mode 100644 obj/main_ada_date_time_rt_stamp.adb.stdout
+ create mode 100644 obj/main_ada_date_time_rt_stamp.ali
+ create mode 100644 obj/main_ada_date_time_rt_stamp.bexch
+ create mode 100644 obj/main_ada_date_time_rt_stamp.cswi
+ create mode 100644 obj/main_ada_date_time_rt_stamp.o
+ create mode 100644 obj/pkg_ada_dtstamp.adb.stderr
+ create mode 100644 obj/pkg_ada_dtstamp.adb.stdout
+ create mode 100644 obj/pkg_ada_dtstamp.ali
+ create mode 100644 obj/pkg_ada_dtstamp.cswi
+ create mode 100644 obj/pkg_ada_dtstamp.o
+ create mode 100644 obj/runs.yaml
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/gnatprove.out
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/main_ada_date_time_rt_stamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/main_ada_date_time_rt_stamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/main_ada_date_time_rt_stamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/main_ada_date_time_rt_stamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/main_ada_date_time_rt_stamp.spark
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/phase1/main_ada_date_time_rt_stamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/phase1/main_ada_date_time_rt_stamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/phase1/main_ada_date_time_rt_stamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/phase1/main_ada_date_time_rt_stamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/phase1/pkg_ada_dtstamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/phase1/pkg_ada_dtstamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/phase1/pkg_ada_dtstamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/phase1/pkg_ada_dtstamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/pkg_ada_dtstamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/pkg_ada_dtstamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/pkg_ada_dtstamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/pkg_ada_dtstamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/pkg_ada_dtstamp.spark
+ create mode 100644 obj/saved_runs/2021-02-21T16_10_37.974295/gnatprove/why3.conf
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/gnatprove.out
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/main_ada_date_time_rt_stamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/main_ada_date_time_rt_stamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/main_ada_date_time_rt_stamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/main_ada_date_time_rt_stamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/main_ada_date_time_rt_stamp.spark
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/phase1/main_ada_date_time_rt_stamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/phase1/main_ada_date_time_rt_stamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/phase1/main_ada_date_time_rt_stamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/phase1/main_ada_date_time_rt_stamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/phase1/pkg_ada_dtstamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/phase1/pkg_ada_dtstamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/phase1/pkg_ada_dtstamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/phase1/pkg_ada_dtstamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/pkg_ada_dtstamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/pkg_ada_dtstamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/pkg_ada_dtstamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/pkg_ada_dtstamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/pkg_ada_dtstamp.spark
+ create mode 100644 obj/saved_runs/2021-02-21T16_12_10.384952/gnatprove/why3.conf
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/6e5fa21d.tmp
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/gnatprove.out
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/main_ada_date_time_rt_stamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/main_ada_date_time_rt_stamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/main_ada_date_time_rt_stamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/main_ada_date_time_rt_stamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/main_ada_date_time_rt_stamp.spark
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/phase1/main_ada_date_time_rt_stamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/phase1/main_ada_date_time_rt_stamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/phase1/main_ada_date_time_rt_stamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/phase1/main_ada_date_time_rt_stamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/phase1/pkg_ada_dtstamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/phase1/pkg_ada_dtstamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/phase1/pkg_ada_dtstamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/phase1/pkg_ada_dtstamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/pkg_ada_dtstamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/pkg_ada_dtstamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/pkg_ada_dtstamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/pkg_ada_dtstamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/pkg_ada_dtstamp.spark
+ create mode 100644 obj/saved_runs/2021-02-21T16_14_41.705151/gnatprove/why3.conf
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/gnatprove.out
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/main_ada_date_time_rt_stamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/main_ada_date_time_rt_stamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/main_ada_date_time_rt_stamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/main_ada_date_time_rt_stamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/main_ada_date_time_rt_stamp.spark
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/phase1/main_ada_date_time_rt_stamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/phase1/main_ada_date_time_rt_stamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/phase1/main_ada_date_time_rt_stamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/phase1/main_ada_date_time_rt_stamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/phase1/pkg_ada_dtstamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/phase1/pkg_ada_dtstamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/phase1/pkg_ada_dtstamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/phase1/pkg_ada_dtstamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/pkg_ada_dtstamp.adb.stderr
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/pkg_ada_dtstamp.adb.stdout
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/pkg_ada_dtstamp.ali
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/pkg_ada_dtstamp.cswi
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/pkg_ada_dtstamp.spark
+ create mode 100644 obj/saved_runs/2021-02-21T16_16_18.383990/gnatprove/why3.conf
+ create mode 100644 src/main_ada_date_time_rt_stamp.adb
+ create mode 100644 src/pkg-ada-dtstamp/pkg_ada_dtstamp.adb
+ create mode 100644 src/pkg-ada-dtstamp/pkg_ada_dtstamp.ads
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-date-time-rt-stamp$ 
+
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-date-time-rt-stamp$ git push origin main
+Username for 'https://github.com': wruslanump
+Password for 'https://wruslanump@github.com': 
+Enumerating objects: 65, done.
+Counting objects: 100% (65/65), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (57/57), done.
+Writing objects: 100% (64/64), 259.26 KiB | 9.26 MiB/s, done.
+Total 64 (delta 26), reused 0 (delta 0)
+remote: Resolving deltas: 100% (26/26), done.
+To https://github.com/wruslanump/ada-date-time-rt-stamp.git
+   ce4e5fa..98d94d1  main -> main
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-date-time-rt-stamp$ 
+

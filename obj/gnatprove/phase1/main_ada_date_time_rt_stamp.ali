@@ -34,7 +34,7 @@ D a-unccon.ads		20200819050643 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20200819050644 5ab55268 interfaces%s
 D i-c.ads		20200819050644 c624fa43 interfaces.c%s
 D i-cstrea.ads		20200819050644 e53d8b8e interfaces.c_streams%s
-D main_ada_date_time_rt_stamp.adb  20210221080617 8735a335 main_ada_date_time_rt_stamp%b
+D main_ada_date_time_rt_stamp.adb  20210221082441 8735a335 main_ada_date_time_rt_stamp%b
 D pkg_ada_dtstamp.ads	20210221081420 f15ab596 pkg_ada_dtstamp%s
 D system.ads		20200819050647 4635ec04 system%s
 D s-atacco.ads		20200819050645 4c36d12f system.address_to_access_conversions%s
@@ -67,15 +67,15 @@ X 7 a-reatim.ads
 39K13*Real_Time 185e18 17|7w10 7r29 20r32
 X 12 a-textio.ads
 57K13*Text_IO 727e16 17|6w10 19r32
-508U14*Put_Line 17|27s9 29s9 33s9
+508U14*Put_Line 17|26s24 27s24 30s24
 X 17 main_ada_date_time_rt_stamp.adb
-13U11*main_ada_date_time_rt_stamp 13b11 36l5 36t32
-19K12 ATIO=19:32 27r4 29r4 33r4
+13U11*main_ada_date_time_rt_stamp 13b11 33l5 33t32
+19K12 ATIO=19:32 26r19 27r19 30r19
 20K12 ART=20:32
-23K12 PADTS=23:28 26r4 28r4 32r4
+23K12 PADTS=23:28 26r4 27r4 30r4
 X 18 pkg_ada_dtstamp.ads
 10K9*pkg_ada_dtstamp 17|10w6 23r28 18|31e20
-17U14*dtstamp 17|26s10 28s10 32s10
+17U14*dtstamp 17|26s10 27s10 30s10
 X 33 s-stausa.ads
 208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
 273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22

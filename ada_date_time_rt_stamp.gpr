@@ -17,14 +17,20 @@ project ada_date_time_rt_stamp is
    for Languages use ("Ada");
 
    for Source_Dirs use ("src/**"); -- Covers every subdirectory in src
-   for Object_Dir use "obj"; -- NOTE: No parantheses
-   for Exec_Dir use "exec"; -- NOTE: No parantheses
+   for Object_Dir  use "obj"; -- NOTE: No parantheses
+   for Exec_Dir    use "exec"; -- NOTE: No parantheses
 
    for Main use ("main_ada_date_time_rt_stamp.adb");
+   -- for Main use ("main_ada_delay_until.adb");
+   
+   
    
    -- ======== for gprbuild ===============================
    package Builder is
       for Executable ("main_ada_date_time_rt_stamp.adb") use "main_ada_date_time_rt_stamp.adx";
+      -- for Executable ("main_ada_delay_until.adb") use "main_ada_delay_until.adx";
+      
+      
    end Builder;
    
    -- ======== File naming ================================

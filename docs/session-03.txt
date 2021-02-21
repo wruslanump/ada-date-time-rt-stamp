@@ -1,0 +1,106 @@
+===========================================================
+gprbuild -d -P/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr -s -k
+Compile
+   [Ada]          main_ada_delay_until.adb
+Bind
+   [gprbind]      main_ada_delay_until.bexch
+   [Ada]          main_ada_delay_until.ali
+Link
+   [link]         main_ada_delay_until.adb
+[2021-02-21 17:13:58] process terminated successfully, elapsed time: 00.95s
+
+===========================================================
+/home/wruslan/github-ump/ada-date-time-rt-stamp/exec/main_ada_delay_until.adx
+2021-02-21 09:14:02.70289799864 Bismillah 3 times WRY
+2021-02-21 09:14:02.70289816409 Running inside GNAT Studio Community
+2021-02-21 09:14:02.70289822965 Executing main_ada_delay_until.adb
+2021-02-21 09:14:02.70289829018 exec_delay_time : loop number :=  1
+2021-02-21 09:14:04.45040334355 exec_delay_time : loop number :=  2
+2021-02-21 09:14:06.20790832536 exec_delay_time : loop number :=  3
+2021-02-21 09:14:07.95541322823 exec_delay_time : loop number :=  4
+2021-02-21 09:14:09.70291853605 exec_delay_time : loop number :=  5
+
+2021-02-21 09:14:11.46042377803 exec_delay_sec  : loop number :=  1
+2021-02-21 09:14:13.46042618512 exec_delay_sec  : loop number :=  2
+2021-02-21 09:14:15.46042813884 exec_delay_sec  : loop number :=  3
+2021-02-21 09:14:17.46043092306 exec_delay_sec  : loop number :=  4
+2021-02-21 09:14:19.46043353821 exec_delay_sec  : loop number :=  5
+2021-02-21 09:14:21.46043577643 exec_delay_sec  : loop number :=  6
+
+2021-02-21 09:14:23.46043763811 exec_delay_msec : loop number :=  1
+2021-02-21 09:14:24.96543959085 exec_delay_msec : loop number :=  2
+2021-02-21 09:14:26.46044171901 exec_delay_msec : loop number :=  3
+2021-02-21 09:14:27.96544420357 exec_delay_msec : loop number :=  4
+2021-02-21 09:14:29.46044636085 exec_delay_msec : loop number :=  5
+2021-02-21 09:14:30.96544844853 exec_delay_msec : loop number :=  6
+2021-02-21 09:14:32.46045097231 exec_delay_msec : loop number :=  7
+
+2021-02-21 09:14:33.96545329845 exec_delay_usec : loop number :=  1
+2021-02-21 09:14:36.46045525275 exec_delay_usec : loop number :=  2
+2021-02-21 09:14:38.96545740982 exec_delay_usec : loop number :=  3
+2021-02-21 09:14:41.46045987457 exec_delay_usec : loop number :=  4
+2021-02-21 09:14:43.96546177523 exec_delay_usec : loop number :=  5
+2021-02-21 09:14:46.46046329622 exec_delay_usec : loop number :=  6
+2021-02-21 09:14:48.96546586034 exec_delay_usec : loop number :=  7
+2021-02-21 09:14:51.46046780901 exec_delay_usec : loop number :=  8
+
+2021-02-21 09:14:53.96546957574 exec_delay_nsec : loop number :=  1
+2021-02-21 09:14:56.06647155022 exec_delay_nsec : loop number :=  2
+2021-02-21 09:14:58.16747353887 exec_delay_nsec : loop number :=  3
+2021-02-21 09:15:00.26847552428 exec_delay_nsec : loop number :=  4
+2021-02-21 09:15:02.36947751823 exec_delay_nsec : loop number :=  5
+2021-02-21 09:15:04.46047955384 exec_delay_nsec : loop number :=  6
+2021-02-21 09:15:06.56148156930 exec_delay_nsec : loop number :=  7
+2021-02-21 09:15:08.66248333729 exec_delay_nsec : loop number :=  8
+2021-02-21 09:15:10.76348540652 exec_delay_nsec : loop number :=  9
+
+2021-02-21 09:15:12.86448771729 Alhamdulillah 3 times WRY
+[2021-02-21 17:15:12] process terminated successfully, elapsed time: 01:10.32s
+
+===========================================================
+gprbuild -d -P/home/wruslan/github-ump/ada-date-time-rt-stamp/ada_delay_until.gpr -s -k
+Compile
+   [Ada]          main_ada_delay_until.adb
+Bind
+   [gprbind]      main_ada_delay_until.bexch
+   [Ada]          main_ada_delay_until.ali
+Link
+   [link]         main_ada_delay_until.adb
+[2021-02-21 17:42:54] process terminated successfully, elapsed time: 01.06s
+
+
+/home/wruslan/github-ump/ada-date-time-rt-stamp/exec/main_ada_delay_until.adx
+2021-02-21 09:42:57.00585466211 Bismillah 3 times WRY
+2021-02-21 09:42:57.00585516041 Running inside GNAT Studio Community
+2021-02-21 09:42:57.00585536045 Executing main_ada_delay_until.adb
+
+2021-02-21 09:42:57.00585558149 exec_delay_time : loop number =  1
+2021-02-21 09:42:58.75336040664 exec_delay_time : loop number =  2
+2021-02-21 09:43:00.50086533443 exec_delay_time : loop number =  3
+2021-02-21 09:43:02.25837026300 exec_delay_time : loop number =  4
+2021-02-21 09:43:04.00587530920 exec_delay_time : loop number =  5
+
+2021-02-21 09:43:05.75338031251 exec_delay_sec  : loop number =  1
+2021-02-21 09:43:07.75338284340 exec_delay_sec  : loop number =  2
+2021-02-21 09:43:09.75338541085 exec_delay_sec  : loop number =  3
+
+2021-02-21 09:43:11.75338763361 exec_delay_msec : loop number =  1
+2021-02-21 09:43:12.75338959392 exec_delay_msec : loop number =  2
+2021-02-21 09:43:13.75339226287 exec_delay_msec : loop number =  3
+
+2021-02-21 09:43:14.75339436790 exec_delay_usec : loop number =  1
+2021-02-21 09:43:14.75341619988 exec_delay_usec : loop number =  2
+2021-02-21 09:43:14.76343773234 exec_delay_usec : loop number =  3
+
+2021-02-21 09:43:14.76345968257 exec_delay_nsec : loop number =  1
+2021-02-21 09:43:14.78366142524 exec_delay_nsec : loop number =  2
+2021-02-21 09:43:14.80386325915 exec_delay_nsec : loop number =  3
+
+the_datestamp = 2021-02-21
+
+the_timestamp = 09:43:14.82406728835
+
+2021-02-21 09:43:14.82406801610 Alhamdulillah 3 times WRY
+[2021-02-21 17:43:14] process terminated successfully, elapsed time: 18.02s
+
+

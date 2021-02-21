@@ -110,7 +110,7 @@ is
 	 end get_timestamp; 
   
    -- ====================================================
-   -- (4) EXECUTE DELAY UNTIL (SECONDS)
+   -- (4) EXECUTE DELAY UNTIL (SECONDS AND FRACTIONS)
    -- ====================================================
     procedure exec_delay_time (interval : ART.Time_Span) is
   	   -- As with delay, delay until is accurate only in its lower bound. 
