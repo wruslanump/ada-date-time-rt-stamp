@@ -1,0 +1,7 @@
+20210221081441
+-c
+-x
+ada
+-gnatA
+-gnatc
+-gnates=/home/wruslan/github-ump/ada-date-time-rt-stamp/obj/gnatprove/85a74aac.tmp

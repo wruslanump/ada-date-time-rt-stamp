@@ -1,0 +1,64 @@
+{
+  "spark": [
+    {
+      "name": "main_ada_date_time_rt_stamp",
+      "sloc": [
+        {
+          "file": "main_ada_date_time_rt_stamp.adb",
+          "line": 13
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "pkg_ada_dtstamp.dtstamp",
+            "sloc": [
+              {
+                "file": "pkg_ada_dtstamp.ads",
+                "line": 17
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "main_ada_date_time_rt_stamp",
+          "sloc": [
+            {
+              "file": "main_ada_date_time_rt_stamp.adb",
+              "line": 13
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "globals/properties (advanced)": 1.93569995462894E-02,
+    "flow analysis": 1.03699997998774E-03,
+    "marking": 1.45340003073215E-02,
+    "globals (basic)": 1.63629993796349E-01
+  }
+}
